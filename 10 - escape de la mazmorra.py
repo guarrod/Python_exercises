@@ -10,7 +10,7 @@ numero_pregunta_aleatorio = random.randint(1, 30)
 saludo = "\nBienvenido al juego de Escape de la mazmorra"
 print(saludo + "\n" + "-" * len(saludo) + "\n")
 
-print("Esta es la sitación, acabas estás escapando de una orda de Vikingos\nque te persiguen, y en el camino encuentras una gran pared en donde\nhay una puerta y una escotilla en el piso, cual decides tomar?")
+print("Esta es la situación, estás escapando de una orda de Vikingos\nque te persiguen, y en el camino encuentras una gran pared en donde\nhay una puerta y una escotilla en el piso, cual decides tomar?")
 begin = input("(P)uerta ó (E)scotilla? > ")
 
 if begin == "P":
