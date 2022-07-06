@@ -15,4 +15,4 @@ while True: # Mejora de la linea anterior
             lista.append(item)
 
 print("La lista de compra es:")
-print(lista)
+print(lista)    
