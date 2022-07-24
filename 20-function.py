@@ -2,10 +2,14 @@ from datetime import datetime
 
 now = datetime.now()
 
-def main():
+def main(mood):
     name = input("Cual es tu nombre?: ")
-    print("Hola {} Hoy es {} y la hora actual {} Tienes tareas pendientes".format(name, now.strftime("%d/%m/%y"), now.strftime("%X")))
+    largo = 0
+    for n in mood:
+        largo +=1
+    print("Hola {}, Hoy es {} y nuestro mood de hoy será {} y el mood tiene {} letras".format(name, now.strftime("%d/%m/%y"), mood, largo))
+    return largo
 
 
 if __name__ ==  "__main__":
-    main() 
+    main("Dia lluvioso") 
